@@ -7,7 +7,7 @@ export default defineConfig({
     // Proxy /api requests to backend during development
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
+        target: 'https://foodcommerce.onrender.com',
         changeOrigin: true,
       }
     }
